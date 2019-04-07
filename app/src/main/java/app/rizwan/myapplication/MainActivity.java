@@ -12,6 +12,7 @@ import app.rizwan.myapplication.Presenter.LoginPresenter;
 import app.rizwan.myapplication.View.ILoginView;
 import es.dmoral.toasty.Toasty;
 
+//trial commit
 public class MainActivity extends AppCompatActivity implements ILoginView {
 
     EditText edt_email,edt_password;
