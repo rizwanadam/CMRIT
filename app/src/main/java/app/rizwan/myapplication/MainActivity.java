@@ -13,6 +13,7 @@ import app.rizwan.myapplication.View.ILoginView;
 import es.dmoral.toasty.Toasty;
 
 //trial commit
+//Comment2
 // trial commit 1
 public class MainActivity extends AppCompatActivity implements ILoginView {
 
