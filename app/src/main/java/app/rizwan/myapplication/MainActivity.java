@@ -12,6 +12,7 @@ import app.rizwan.myapplication.Presenter.LoginPresenter;
 import app.rizwan.myapplication.View.ILoginView;
 import es.dmoral.toasty.Toasty;
 
+
 public class MainActivity extends AppCompatActivity implements ILoginView {
 
     EditText edt_email,edt_password;
@@ -24,9 +25,9 @@ public class MainActivity extends AppCompatActivity implements ILoginView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnLogin = (Button)findViewById(R.id.btn_login);
-        edt_email = (EditText)findViewById(R.id.edit_email);
-        edt_password = (EditText)findViewById(R.id.edit_password);
+        btnLogin = findViewById(R.id.btn_login);
+        edt_email = findViewById(R.id.edit_email);
+        edt_password = findViewById(R.id.edit_password);
 
         loginPresenter = new LoginPresenter(this);
 
