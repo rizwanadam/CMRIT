@@ -24,9 +24,9 @@ public class MainActivity extends AppCompatActivity implements ILoginView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnLogin = (Button)findViewById(R.id.btn_login);
-        edt_email = (EditText)findViewById(R.id.edit_email);
-        edt_password = (EditText)findViewById(R.id.edit_password);
+        btnLogin = findViewById(R.id.btn_login);
+        edt_email = findViewById(R.id.edit_email);
+        edt_password = findViewById(R.id.edit_password);
 
         loginPresenter = new LoginPresenter(this);
 
